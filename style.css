@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /* resets-end */
 
@@ -106,7 +110,6 @@
 
 .ico h2 {
     font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 1em;
@@ -149,7 +152,6 @@
 .about-text h1 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
 }
 
@@ -157,4 +159,87 @@
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     margin: 1em;
+}
+
+.numbers {
+    background-image: url('imgs/facts-bg-small.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: #fff;
+    padding: 5em 0;
+}
+
+.numbers .the-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.numbers .num {
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.numbers .text {
+    font-size: 1.3em;
+}
+/* about end */
+
+/* team start */
+.team .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #094378;
+    color: #fff;
+    margin: 5em auto;
+    width: 70%;
+}
+
+.team .header h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: .5em;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-card-small {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team-card-small .staff-name {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.team-card-small .staff-title {
+    font-weight: bold;
+}
+
+.team-img {
+    width: 100%;
 }
