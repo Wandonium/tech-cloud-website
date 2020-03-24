@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* resets-start */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* resets-end */
+
+
+/* header-start */
+
+.top {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    width: 90%;
+}
+
+.hamburger {
+    background-color: #024f93;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.hamburger:hover,
+.hamburger:visited {
+    background-color: #0bbbfd;
+}
+
+.nav-icon {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 4px;
+}
+
+.nav-icon:last-child {
+    margin-bottom: 0px;
+}
+
+#navbar {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #024f93;
+}
+
+#navbar a:hover {
+    color: #0bbbfd;
+}
+
+#navbar li {
+    margin-bottom: 15px;
+}
+
+
+/* header-end */
+
+
+/* home-start */
+
+.home {
+    background: url('imgs/home.gif');
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.ico-group {
+    margin: 10rem 1rem;
+}
+
+.ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.ico h2 {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.ico p {
+    font-size: 1em;
+    margin-top: .75em;
+}
+
+.ico i {
+    background-color: #094378;
+    border-radius: 100%;
+    font-size: 5em;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* home-end */
+
+
+/* about-start */
+
+.about-img img {
+    width: 100vw;
+}
+
+.about-text {
+    margin: 2rem 1rem;
+    background-color: #2b76b8;
+    color: #fff;
+    padding: 1em;
+}
+
+.about-text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.about-text p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 1em;
+}
